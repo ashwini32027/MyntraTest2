@@ -5,29 +5,36 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import BaseTest.BaseTests;
-import pages.Ascedndingorder;
 import pages.Searchproduct;
+import pages.SortingFail;
+	public class SortingFailTest extends BaseTests {
 
-public class SortingFailTest extends BaseTests{
-	Searchproduct sp;
-	Ascedndingorder asc;
-		
-		@BeforeMethod
-		public void initilize() {
-			sp=new Searchproduct(driver);
-			asc=new Ascedndingorder(driver);
-		}
-		
-		@Test
-		public void ascorder() throws InterruptedException
-		{
-			sp.openMenTshirtPage();
-			Assert.assertTrue(sp.isProductPageVisible(), "Men Tshirt Page is not Visible");
-			asc.scrollonsortbutton();
-			asc.clicklowtohighbtn();
-			asc.ratetoinr();
-			Assert.assertFalse(asc.verifyratelowtohigh());
-		
-		}
+	    Searchproduct sp;
+	    SortingFail sf;
 
+	    @BeforeMethod
+	    public void initialize() {
+	        sp = new Searchproduct(driver);
+	        sf = new SortingFail(driver);
+	    }
+
+	    @Test
+	    public void verifySortingFailure() throws InterruptedException {
+
+	        // Step 1: Open Men Tshirt page
+	        sp.openMenTshirtPage();
+	        Assert.assertTrue(sp.isProductPageVisible(),
+	                "Men Tshirt Page is not visible");
+
+	        // Step 2: Apply sorting
+	        sf.scrollonsortbutton();
+	        sf.clicklowtohighbtn();
+
+	        // Step 3: Capture prices
+	        sf.ratetoinr();
+
+	        // Step 4: Verify sorting failure (negative test)
+	        Assert.assertTrue(sf.verifySortingFail(),
+	                "Sorting should fail but it passed");
+	    }
 	}

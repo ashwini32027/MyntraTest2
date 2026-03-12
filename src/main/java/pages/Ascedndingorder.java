@@ -56,7 +56,7 @@ public class Ascedndingorder extends Base {
 		for(int i=0;i<pricetag.size();i++)
 		{
 			String txt=pricetag.get(i).getText();
-		    System.out.println(txt);
+		 //   System.out.println(txt);
 		    txt = txt.replaceAll("[^0-9]","").trim();
 		    int num=Integer.parseInt(txt);
 		    prices.add(num);
@@ -66,7 +66,7 @@ public class Ascedndingorder extends Base {
 	
 	public boolean verifyratelowtohigh()
 	{
-		for(int i=0;i<4;i++)
+		for(int i=0;i<5;i++)
 		{
 			if(prices.get(i)<=prices.get(i+1))
 			{
