@@ -1,87 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <suite started-at="2026-03-12T19:56:46 IST" name="Default suite" finished-at="2026-03-12T19:57:02 IST" duration-ms="16160">
+  <suite started-at="2026-03-12T20:29:10 IST" name="Suite" finished-at="2026-03-12T20:32:37 IST" duration-ms="206794">
     <groups>
     </groups>
-    <test started-at="2026-03-12T19:56:46 IST" name="Default test" finished-at="2026-03-12T19:57:02 IST" duration-ms="16160">
-      <class name="tests.ProductVisibilityTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:56:46 IST" name="setup" finished-at="2026-03-12T19:56:53 IST" duration-ms="6275" status="PASS">
+    <test started-at="2026-03-12T20:29:10 IST" name="Test" finished-at="2026-03-12T20:32:37 IST" duration-ms="206794">
+      <class name="tests.SearchproductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchproductTest@49438269]" started-at="2026-03-12T20:29:48 IST" name="setup" finished-at="2026-03-12T20:29:53 IST" duration-ms="4852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:56:53 IST" name="initialize" finished-at="2026-03-12T19:56:53 IST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.SearchproductTest@49438269]" started-at="2026-03-12T20:29:53 IST" name="initilize" finished-at="2026-03-12T20:29:53 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="VerifyOpenMenTshirt()[pri:0, instance:tests.SearchproductTest@49438269]" started-at="2026-03-12T20:29:53 IST" name="VerifyOpenMenTshirt" finished-at="2026-03-12T20:29:59 IST" duration-ms="5999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOpenMenTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchproductTest@49438269]" started-at="2026-03-12T20:29:59 IST" name="tearDown" finished-at="2026-03-12T20:30:00 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchproductTest -->
+      <class name="tests.HomepagesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomepagesTest@7a8c8dcf]" started-at="2026-03-12T20:32:24 IST" name="setup" finished-at="2026-03-12T20:32:36 IST" duration-ms="11874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.HomepagesTest@7a8c8dcf]" started-at="2026-03-12T20:32:36 IST" name="initialize" finished-at="2026-03-12T20:32:36 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="verifyNoProductAfterSorting()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:56:53 IST" name="verifyNoProductAfterSorting" finished-at="2026-03-12T19:57:02 IST" duration-ms="9265" status="PASS">
+        <test-method signature="verifyHomePage()[pri:0, instance:tests.HomepagesTest@7a8c8dcf]" started-at="2026-03-12T20:32:36 IST" name="verifyHomePage" finished-at="2026-03-12T20:32:36 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNoProductAfterSorting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:57:02 IST" name="tearDown" finished-at="2026-03-12T19:57:02 IST" duration-ms="446" status="PASS">
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomepagesTest@7a8c8dcf]" started-at="2026-03-12T20:32:36 IST" name="tearDown" finished-at="2026-03-12T20:32:37 IST" duration-ms="1030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.ProductVisibilityTest -->
-=======
-  <suite started-at="2026-03-12T19:50:49 IST" name="Default suite" finished-at="2026-03-12T19:51:27 IST" duration-ms="37250">
-=======
-  <suite started-at="2026-03-12T20:10:34 IST" name="Default suite" finished-at="2026-03-12T20:10:54 IST" duration-ms="19960">
-    <groups>
-    </groups>
-    <test started-at="2026-03-12T20:10:34 IST" name="Default test" finished-at="2026-03-12T20:10:54 IST" duration-ms="19960">
-      <class name="tests.CustomsortTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CustomsortTest@5e0e82ae]" started-at="2026-03-12T20:10:34 IST" name="setup" finished-at="2026-03-12T20:10:43 IST" duration-ms="8940" status="PASS">
+      </class> <!-- tests.HomepagesTest -->
+      <class name="tests.SortingEnableTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SortingEnableTest@367ffa75]" started-at="2026-03-12T20:29:34 IST" name="setup" finished-at="2026-03-12T20:29:42 IST" duration-ms="7950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.CustomsortTest@5e0e82ae]" started-at="2026-03-12T20:10:43 IST" name="initilize" finished-at="2026-03-12T20:10:43 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.SortingEnableTest@367ffa75]" started-at="2026-03-12T20:29:42 IST" name="initialize" finished-at="2026-03-12T20:29:42 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initilize -->
-        <test-method signature="customerrating()[pri:0, instance:tests.CustomsortTest@5e0e82ae]" started-at="2026-03-12T20:10:43 IST" name="customerrating" finished-at="2026-03-12T20:10:53 IST" duration-ms="9753" status="PASS">
+        </test-method> <!-- initialize -->
+        <test-method signature="verifySortingOptionEnabled()[pri:0, instance:tests.SortingEnableTest@367ffa75]" started-at="2026-03-12T20:29:42 IST" name="verifySortingOptionEnabled" finished-at="2026-03-12T20:29:47 IST" duration-ms="5013" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customerrating -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomsortTest@5e0e82ae]" started-at="2026-03-12T20:10:53 IST" name="tearDown" finished-at="2026-03-12T20:10:54 IST" duration-ms="850" status="PASS">
+        </test-method> <!-- verifySortingOptionEnabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortingEnableTest@367ffa75]" started-at="2026-03-12T20:29:47 IST" name="tearDown" finished-at="2026-03-12T20:29:48 IST" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.CustomsortTest -->
->>>>>>> 0efe4f86455f1564c01a484e8f4fd68e2b2ec5e5
-=======
-  <suite started-at="2026-03-12T20:07:13 IST" name="Default suite" finished-at="2026-03-12T20:08:13 IST" duration-ms="59925">
->>>>>>> 16a1a543a2c7a3c78eb7f891b6b39b4532ecb18c
-    <groups>
-    </groups>
-    <test started-at="2026-03-12T20:07:13 IST" name="Default test" finished-at="2026-03-12T20:08:13 IST" duration-ms="59925">
+      </class> <!-- tests.SortingEnableTest -->
       <class name="tests.SortingFailTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:07:13 IST" name="setup" finished-at="2026-03-12T20:07:24 IST" duration-ms="10293" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SortingFailTest@55fe41ea]" started-at="2026-03-12T20:30:28 IST" name="setup" finished-at="2026-03-12T20:30:36 IST" duration-ms="8040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:07:24 IST" name="initilize" finished-at="2026-03-12T20:07:24 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.SortingFailTest@55fe41ea]" started-at="2026-03-12T20:30:36 IST" name="initilize" finished-at="2026-03-12T20:30:36 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="ascorder()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:07:24 IST" name="ascorder" finished-at="2026-03-12T20:08:13 IST" duration-ms="49470" status="PASS">
+        <test-method signature="ascorder()[pri:0, instance:tests.SortingFailTest@55fe41ea]" started-at="2026-03-12T20:30:36 IST" name="ascorder" finished-at="2026-03-12T20:30:52 IST" duration-ms="15854" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at tests.SortingFailTest.ascorder(SortingFailTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ascorder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:08:13 IST" name="tearDown" finished-at="2026-03-12T20:08:13 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortingFailTest@55fe41ea]" started-at="2026-03-12T20:30:52 IST" name="tearDown" finished-at="2026-03-12T20:30:53 IST" duration-ms="679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.SortingFailTest -->
-<<<<<<< HEAD
->>>>>>> d9e96a223973c0ae0cc8e3f60fb3714784cdf2ee
-=======
->>>>>>> 16a1a543a2c7a3c78eb7f891b6b39b4532ecb18c
->>>>>>> 0efe4f86455f1564c01a484e8f4fd68e2b2ec5e5
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.CustomsortTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CustomsortTest@1c1bbc4e]" started-at="2026-03-12T20:30:00 IST" name="setup" finished-at="2026-03-12T20:30:08 IST" duration-ms="8712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.CustomsortTest@1c1bbc4e]" started-at="2026-03-12T20:30:08 IST" name="initilize" finished-at="2026-03-12T20:30:08 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="customerrating()[pri:0, instance:tests.CustomsortTest@1c1bbc4e]" started-at="2026-03-12T20:30:08 IST" name="customerrating" finished-at="2026-03-12T20:30:26 IST" duration-ms="17993" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='index-overallRating']//div[contains(text(),'5')]"}
+  (Session info: chrome=146.0.7680.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bc68bb54912092d6b5fce71acd51fd2, findElement {value=//div[@class='index-overallRating']//div[contains(text(),'5')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.71, chrome: {chromedriverVersion: 146.0.7680.72 (cb10bb07c0a5..., userDataDir: C:\Users\91620\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61847}, goog:processID: 20024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61847/devtoo..., se:cdpVersion: 146.0.7680.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc68bb54912092d6b5fce71acd51fd2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='index-overallRating']//div[contains(text(),'5')]"}
+  (Session info: chrome=146.0.7680.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bc68bb54912092d6b5fce71acd51fd2, findElement {value=//div[@class='index-overallRating']//div[contains(text(),'5')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.71, chrome: {chromedriverVersion: 146.0.7680.72 (cb10bb07c0a5..., userDataDir: C:\Users\91620\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61847}, goog:processID: 20024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61847/devtoo..., se:cdpVersion: 146.0.7680.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bc68bb54912092d6b5fce71acd51fd2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+at pages.Customsort.ratingverify(Customsort.java:59)
+at tests.CustomsortTest.customerrating(CustomsortTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerrating -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CustomsortTest@1c1bbc4e]" started-at="2026-03-12T20:30:26 IST" name="tearDown" finished-at="2026-03-12T20:30:28 IST" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CustomsortTest -->
+      <class name="tests.refreshtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.refreshtest@1ce24091]" started-at="2026-03-12T20:31:15 IST" name="setup" finished-at="2026-03-12T20:31:23 IST" duration-ms="8538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.refreshtest@1ce24091]" started-at="2026-03-12T20:31:23 IST" name="initilize" finished-at="2026-03-12T20:31:23 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="ascorder()[pri:0, instance:tests.refreshtest@1ce24091]" started-at="2026-03-12T20:31:23 IST" name="ascorder" finished-at="2026-03-12T20:31:53 IST" duration-ms="29952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ascorder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.refreshtest@1ce24091]" started-at="2026-03-12T20:31:53 IST" name="tearDown" finished-at="2026-03-12T20:31:54 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.refreshtest -->
+      <class name="tests.AscendingorderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AscendingorderTest@5dda768f]" started-at="2026-03-12T20:31:54 IST" name="setup" finished-at="2026-03-12T20:32:03 IST" duration-ms="9117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.AscendingorderTest@5dda768f]" started-at="2026-03-12T20:32:03 IST" name="initilize" finished-at="2026-03-12T20:32:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="ascorder()[pri:0, instance:tests.AscendingorderTest@5dda768f]" started-at="2026-03-12T20:32:03 IST" name="ascorder" finished-at="2026-03-12T20:32:23 IST" duration-ms="19771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ascorder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AscendingorderTest@5dda768f]" started-at="2026-03-12T20:32:23 IST" name="tearDown" finished-at="2026-03-12T20:32:24 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AscendingorderTest -->
+      <class name="tests.DescendingorderTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DescendingorderTest@fbd1f6]" started-at="2026-03-12T20:30:53 IST" name="setup" finished-at="2026-03-12T20:30:59 IST" duration-ms="5819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.DescendingorderTest@fbd1f6]" started-at="2026-03-12T20:30:59 IST" name="initilize" finished-at="2026-03-12T20:30:59 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="dscorder()[pri:0, instance:tests.DescendingorderTest@fbd1f6]" started-at="2026-03-12T20:30:59 IST" name="dscorder" finished-at="2026-03-12T20:31:14 IST" duration-ms="15136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dscorder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DescendingorderTest@fbd1f6]" started-at="2026-03-12T20:31:14 IST" name="tearDown" finished-at="2026-03-12T20:31:15 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DescendingorderTest -->
+      <class name="tests.ProductVisibilityTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductVisibilityTest@4afcd809]" started-at="2026-03-12T20:29:10 IST" name="setup" finished-at="2026-03-12T20:29:22 IST" duration-ms="11447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ProductVisibilityTest@4afcd809]" started-at="2026-03-12T20:29:22 IST" name="initialize" finished-at="2026-03-12T20:29:22 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyNoProductAfterSorting()[pri:0, instance:tests.ProductVisibilityTest@4afcd809]" started-at="2026-03-12T20:29:22 IST" name="verifyNoProductAfterSorting" finished-at="2026-03-12T20:29:33 IST" duration-ms="10954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoProductAfterSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductVisibilityTest@4afcd809]" started-at="2026-03-12T20:29:33 IST" name="tearDown" finished-at="2026-03-12T20:29:34 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductVisibilityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

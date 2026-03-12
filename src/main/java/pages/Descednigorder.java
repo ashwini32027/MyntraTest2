@@ -47,6 +47,8 @@ public class Descednigorder extends Base {
 	}
 	public void ratetoinr()
 	{
+		prices.clear();
+
 		for(int i=0;i<pricetag.size();i++)
 		{
 			String txt=pricetag.get(i).getText();
