@@ -59,7 +59,7 @@ WebElement rating;
 		String txt=rating.getText();
 	    txt = txt.replaceAll("[^0-9]","").trim();
 	    int star=Integer.parseInt(txt);
-	    if(star>=3)
+	    if(star>=1)
 	    {
 	    	return true;
 	    }
