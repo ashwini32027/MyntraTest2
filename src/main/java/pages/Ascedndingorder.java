@@ -60,7 +60,7 @@ public class Ascedndingorder extends Base {
 		    txt = txt.replaceAll("[^0-9]","").trim();
 		    int num=Integer.parseInt(txt);
 		    prices.add(num);
-		    System.out.println(num);
+		   // System.out.println(num);
 		}
 	}
 	
