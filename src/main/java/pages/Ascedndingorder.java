@@ -39,7 +39,7 @@ public class Ascedndingorder extends Base {
 	public void scrollonsortbutton()
 	{
 		action= new Actions(driver);
-		action.moveToElement(sortbutton);
+		action.moveToElement(sortbutton).perform();;
 	}
 	public void clicklowtohighbtn()
 	{
@@ -51,6 +51,7 @@ public class Ascedndingorder extends Base {
 		for(int i=0;i<pricetag.size();i++)
 		{
 			String txt=pricetag.get(i).getText();
+		    System.out.println(txt);
 		    txt = txt.replaceAll("[^0-9]","").trim();
 		    int num=Integer.parseInt(txt);
 		    prices.add(num);
