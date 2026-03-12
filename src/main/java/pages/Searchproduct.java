@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.interactions.Actions;
@@ -7,7 +8,7 @@ import base.Base;
 import utils.WaitUtils;
 
 public class Searchproduct extends Base{
-	Searchproduct(WebElement driver){
+	public Searchproduct(WebDriver driver){
 		super(driver);
 	}
 	
@@ -15,6 +16,9 @@ public class Searchproduct extends Base{
 	WebElement mentshirt;
 	@FindBy(xpath="//a[@class='desktop-main'][normalize-space()='Men']")
 	WebElement men;
+	@FindBy(xpath="//h1[normalize-space()='Men T-shirts']")
+	WebElement msg;
+	
 	Actions action;
 	
 	WaitUtils wait;
@@ -26,6 +30,11 @@ public class Searchproduct extends Base{
 		action.moveToElement(menshirt).click().perform();
 	}
 	public boolean isProductPageVisible() {
-		return driver.getCurrentUrl.contains("men-tshirts");
+		wait = new WaitUtils(driver);
+		WebElement shirtmsg = wait.waitForVisibility(msg);
+		if(shirtmsg.isDisplayed())
+			return true;
+		return false;
+		
 	}
 }
