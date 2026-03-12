@@ -51,7 +51,7 @@ public class Descednigorder extends Base {
 		{
 			String txt=pricetag.get(i).getText();
 		    txt = txt.replaceAll("[^0-9]","").trim();
-		    System.out.println(txt);
+		//    System.out.println(txt);
 		    int num=Integer.parseInt(txt);
 		    prices.add(num);
 		}
