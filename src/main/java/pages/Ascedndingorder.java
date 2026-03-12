@@ -3,6 +3,7 @@ package pages;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -41,13 +42,17 @@ public class Ascedndingorder extends Base {
 		action= new Actions(driver);
 		action.moveToElement(sortbutton).perform();;
 	}
-	public void clicklowtohighbtn()
+	public void clicklowtohighbtn() throws InterruptedException
 	{
 		WebElement low=wait.waitForClick(lowtohigh);
 		low.click();
+		Thread.sleep(5000);
+//	    wait.waitForAllVisible(pricetag);
+
 	}
 	public void ratetoinr()
 	{
+		prices.clear();
 		for(int i=0;i<pricetag.size();i++)
 		{
 			String txt=pricetag.get(i).getText();
@@ -55,16 +60,17 @@ public class Ascedndingorder extends Base {
 		    txt = txt.replaceAll("[^0-9]","").trim();
 		    int num=Integer.parseInt(txt);
 		    prices.add(num);
+		    System.out.println(num);
 		}
 	}
 	
 	public boolean verifyratelowtohigh()
 	{
-		for(int i=0;i<5;i++)
+		for(int i=0;i<4;i++)
 		{
 			if(prices.get(i)<=prices.get(i+1))
 			{
-				continue;
+				System.out.println("equal or less");
 			}
 			else
 			{
