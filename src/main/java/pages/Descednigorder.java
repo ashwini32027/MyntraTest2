@@ -37,12 +37,13 @@ public class Descednigorder extends Base {
 	public void scrollonsortbutton()
 	{
 		action= new Actions(driver);
-		action.moveToElement(sortbutton);
+		action.moveToElement(sortbutton).perform();;
 	}
-	public void clickhightolow()
+	public void clickhightolow() throws InterruptedException
 	{
 		WebElement low=wait.waitForClick(hightolow);
 		low.click();
+		Thread.sleep(5000);
 	}
 	public void ratetoinr()
 	{

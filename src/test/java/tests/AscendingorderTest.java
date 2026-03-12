@@ -15,10 +15,11 @@ Ascedndingorder asc;
 	@BeforeMethod
 	public void initilize() {
 		sp=new Searchproduct(driver);
+		asc=new Ascedndingorder(driver);
 	}
 	
 	@Test
-	public void ascorder()
+	public void ascorder() throws InterruptedException
 	{
 		sp.openMenTshirtPage();
 		Assert.assertTrue(sp.isProductPageVisible(), "Men Tshirt Page is not Visible");
@@ -26,7 +27,7 @@ Ascedndingorder asc;
 		asc.clicklowtohighbtn();
 		asc.ratetoinr();
 		Assert.assertTrue(asc.verifyratelowtohigh());
-		
+	
 	}
 
 }
