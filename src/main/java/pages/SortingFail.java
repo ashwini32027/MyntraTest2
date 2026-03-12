@@ -83,12 +83,12 @@ public class SortingFail extends Base{
 	    if(actual.equals(expected))
 	    {
 	        
-	        return true;
+	        return false;
 	    }
 	    else
 	    {
 	        
-	        return false;
+	        return true;
 	    }
 	}
 	
