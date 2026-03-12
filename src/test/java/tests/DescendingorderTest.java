@@ -12,8 +12,6 @@ import pages.Searchproduct;
 public class DescendingorderTest extends BaseTests {
 	Searchproduct sp;
 	Descednigorder dsc;
-	
-		
 		@BeforeMethod
 		public void initilize() {
 			sp=new Searchproduct(driver);
