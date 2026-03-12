@@ -33,7 +33,7 @@ public class Ascedndingorder extends Base {
 	@FindBy(xpath="//label[normalize-space()='Price: Low to High']")
 	WebElement lowtohigh;
 	
-//price capture
+     //price capture
 	@FindBy(xpath="//span[@class='product-discountedPrice']")
 	List<WebElement>pricetag;
 
@@ -79,6 +79,16 @@ public class Ascedndingorder extends Base {
 			
 		}
 		return true;
+	}
+	
+	public boolean isSortButtonEnabled()
+	{
+	    return sortbutton.isEnabled();
+	}
+	
+	public boolean isProductListEmpty()
+	{
+	    return pricetag.size() == 0;
 	}
 
 }

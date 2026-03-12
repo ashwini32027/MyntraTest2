@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-12T19:08:01 IST" name="Default suite" finished-at="2026-03-12T19:08:11 IST" duration-ms="10563">
+  <suite started-at="2026-03-12T19:56:46 IST" name="Default suite" finished-at="2026-03-12T19:57:02 IST" duration-ms="16160">
     <groups>
     </groups>
-    <test started-at="2026-03-12T19:08:01 IST" name="Default test" finished-at="2026-03-12T19:08:11 IST" duration-ms="10563">
-      <class name="tests.SearchproductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchproductTest@443118b0]" started-at="2026-03-12T19:08:01 IST" name="setup" finished-at="2026-03-12T19:08:08 IST" duration-ms="6936" status="PASS">
+    <test started-at="2026-03-12T19:56:46 IST" name="Default test" finished-at="2026-03-12T19:57:02 IST" duration-ms="16160">
+      <class name="tests.ProductVisibilityTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:56:46 IST" name="setup" finished-at="2026-03-12T19:56:53 IST" duration-ms="6275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.SearchproductTest@443118b0]" started-at="2026-03-12T19:08:08 IST" name="initilize" finished-at="2026-03-12T19:08:08 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:56:53 IST" name="initialize" finished-at="2026-03-12T19:56:53 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initilize -->
-        <test-method signature="VerifyOpenMenTshirt()[pri:0, instance:tests.SearchproductTest@443118b0]" started-at="2026-03-12T19:08:08 IST" name="VerifyOpenMenTshirt" finished-at="2026-03-12T19:08:11 IST" duration-ms="3037" status="PASS">
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyNoProductAfterSorting()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:56:53 IST" name="verifyNoProductAfterSorting" finished-at="2026-03-12T19:57:02 IST" duration-ms="9265" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyOpenMenTshirt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchproductTest@443118b0]" started-at="2026-03-12T19:08:11 IST" name="tearDown" finished-at="2026-03-12T19:08:11 IST" duration-ms="422" status="PASS">
+        </test-method> <!-- verifyNoProductAfterSorting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductVisibilityTest@765d7657]" started-at="2026-03-12T19:57:02 IST" name="tearDown" finished-at="2026-03-12T19:57:02 IST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.SearchproductTest -->
+      </class> <!-- tests.ProductVisibilityTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

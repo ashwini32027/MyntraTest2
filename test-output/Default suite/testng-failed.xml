@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.DescendingorderTest">
+      <class name="tests.SortingDisableTest">
         <methods>
-          <include name="initilize"/>
-          <include name="dscorder"/>
+          <include name="initialize"/>
           <include name="setup"/>
+          <include name="verifySortingOptionDisabled"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- tests.DescendingorderTest -->
+      </class> <!-- tests.SortingDisableTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
