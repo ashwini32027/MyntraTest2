@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2026-03-12T20:10:34 IST" name="Default suite" finished-at="2026-03-12T20:10:54 IST" duration-ms="19960">
     <groups>
     </groups>
@@ -24,6 +25,30 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CustomsortTest -->
+=======
+  <suite started-at="2026-03-12T20:07:13 IST" name="Default suite" finished-at="2026-03-12T20:08:13 IST" duration-ms="59925">
+    <groups>
+    </groups>
+    <test started-at="2026-03-12T20:07:13 IST" name="Default test" finished-at="2026-03-12T20:08:13 IST" duration-ms="59925">
+      <class name="tests.SortingFailTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:07:13 IST" name="setup" finished-at="2026-03-12T20:07:24 IST" duration-ms="10293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:07:24 IST" name="initilize" finished-at="2026-03-12T20:07:24 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="ascorder()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:07:24 IST" name="ascorder" finished-at="2026-03-12T20:08:13 IST" duration-ms="49470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ascorder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortingFailTest@55b699ef]" started-at="2026-03-12T20:08:13 IST" name="tearDown" finished-at="2026-03-12T20:08:13 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SortingFailTest -->
+>>>>>>> 16a1a543a2c7a3c78eb7f891b6b39b4532ecb18c
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

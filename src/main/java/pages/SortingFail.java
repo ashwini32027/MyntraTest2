@@ -1,10 +1,9 @@
 package pages;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,13 +12,13 @@ import org.openqa.selenium.support.FindBy;
 import base.Base;
 import utils.WaitUtils;
 
-public class Ascedndingorder extends Base {
+public class SortingFail extends Base{
 	WaitUtils wait;
 	Actions action;
 	//This store actual rate 
 	List<Integer>prices=new ArrayList<>();
 	
-	public Ascedndingorder(WebDriver driver) {
+	public SortingFail(WebDriver driver) {
 		super(driver);
 		wait = new WaitUtils(driver);
 		// TODO Auto-generated constructor stub
@@ -46,8 +45,7 @@ public class Ascedndingorder extends Base {
 	{
 		WebElement low=wait.waitForClick(lowtohigh);
 		low.click();
-		Thread.sleep(5000);
-//	    wait.waitForAllVisible(pricetag);
+		
 
 	}
 	public void ratetoinr()
@@ -66,22 +64,33 @@ public class Ascedndingorder extends Base {
 	
 	public boolean verifyratelowtohigh()
 	{
-		for(int i=0;i<4;i++)
-		{
-			if(prices.get(i)<=prices.get(i+1))
-			{
-				System.out.println("equal or less");
-			}
-			else
-			{
-				return false;
-			}
-			
-		}
-		return true;
+	    List<Integer> actual = new ArrayList<>();
+
+	    // take first 5 prices
+	    for(int i = 0; i < 5; i++)
+	    {
+	        actual.add(prices.get(i));
+	    }
+
+	    System.out.println("Actual First 5 Prices: " + actual);
+
+	    // expected sorted list
+	    List<Integer> expected = new ArrayList<>(actual);
+	    Collections.sort(expected);
+
+	    System.out.println("Expected Sorted Prices: " + expected);
+
+	    if(actual.equals(expected))
+	    {
+	        
+	        return false;
+	    }
+	    else
+	    {
+	        
+	        return true;
+	    }
 	}
 	
 	
-	
-
 }

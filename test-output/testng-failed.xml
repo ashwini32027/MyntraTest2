@@ -3,14 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="tests.CustomsortTest">
         <methods>
           <include name="customerrating"/>
           <include name="initilize"/>
+=======
+      <class name="tests.SortingFailTest">
+        <methods>
+>>>>>>> 16a1a543a2c7a3c78eb7f891b6b39b4532ecb18c
           <include name="setup"/>
+          <include name="ascorder"/>
+          <include name="initilize"/>
           <include name="tearDown"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- tests.CustomsortTest -->
+=======
+      </class> <!-- tests.SortingFailTest -->
+>>>>>>> 16a1a543a2c7a3c78eb7f891b6b39b4532ecb18c
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
