@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2026-03-12T17:33:17 IST" name="Default suite" finished-at="2026-03-12T17:33:23 IST" duration-ms="5683">
     <groups>
     </groups>
@@ -20,10 +21,30 @@
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomepagesTest@639c2c1d]" started-at="2026-03-12T17:33:22 IST" name="tearDown" finished-at="2026-03-12T17:33:23 IST" duration-ms="448" status="PASS">
+=======
+  <suite started-at="2026-03-12T17:37:38 IST" name="Default suite" finished-at="2026-03-12T17:37:51 IST" duration-ms="13704">
+    <groups>
+    </groups>
+    <test started-at="2026-03-12T17:37:38 IST" name="Default test" finished-at="2026-03-12T17:37:51 IST" duration-ms="13704">
+      <class name="tests.SearchproductTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchproductTest@6771beb3]" started-at="2026-03-12T17:37:38 IST" name="setup" finished-at="2026-03-12T17:37:44 IST" duration-ms="6083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:tests.SearchproductTest@6771beb3]" started-at="2026-03-12T17:37:44 IST" name="initilize" finished-at="2026-03-12T17:37:44 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="VerifyOpenMenTshirt()[pri:0, instance:tests.SearchproductTest@6771beb3]" started-at="2026-03-12T17:37:44 IST" name="VerifyOpenMenTshirt" finished-at="2026-03-12T17:37:51 IST" duration-ms="6981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOpenMenTshirt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchproductTest@6771beb3]" started-at="2026-03-12T17:37:51 IST" name="tearDown" finished-at="2026-03-12T17:37:51 IST" duration-ms="468" status="PASS">
+>>>>>>> 07db3dbdb7c2e3458e361d3a4dadaf53d17bbae6
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.HomepagesTest -->
+      </class> <!-- tests.SearchproductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

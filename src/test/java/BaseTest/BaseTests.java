@@ -20,9 +20,13 @@ public class BaseTests {
 	@AfterMethod
 	public void tearDown()
 	{
+<<<<<<< HEAD
 		driver.close();
 		driver.quit();
 	
 	
+=======
+		driver.quit();
+>>>>>>> 07db3dbdb7c2e3458e361d3a4dadaf53d17bbae6
 	}
 }
